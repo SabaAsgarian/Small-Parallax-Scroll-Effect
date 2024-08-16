@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Parallax Scroll Effect</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/javascript.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="h-[100vh] w-[100vw] font-mr overflow-x-hidden">
+    <section id="top"
+        class="relative w-full h-full overflow-hidden flex justify-center items-center before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[200px] before:w-[100%] ">
+        <img src="img/bg.jpg" alt="" id="bg">
+        <h2 id="text" class="relative text-white text-[10rem] !font-mb">Mountains</h2>
+        <img src="img/man.png" alt="" id="man">
+        <img src="img/clouds_1.png" alt="" id="clouds_1">
+        <img src="img/clouds_2.png" alt="" id="clouds_2">
+        <img src="img/mountain_left.png" alt="" id="mountain_left">
+        <img src="img/mountain_right.png" alt="" id="mountain_right">
+    </section>
+    <section id="sec" class="m-[10%] *:text-center ">
+        <h2 class="text-[4rem] mb-[30px] text-[#20496a] !font-mb">Welcome to the Mountains</h2>
+        <p class="text-[1.2rem] font-extralight italic ">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A earum ipsam laboriosam mollitia, architecto esse
+            voluptates eligendi provident soluta et cupiditate sit nisi at dolorum iure dignissimos cumque amet
+            necessitatibus blanditiis? Earum assumenda soluta reiciendis recusandae, incidunt tenetur nihil adipisci
+            corrupti, quibusdam ullam numquam iusto veritatis facilis ab dicta, nobis inventore eius magni eveniet quo?
+            Repellat nobis quos, facilis quam perspiciatis asperiores delectus, aliquid nihil molestias in at modi nulla
+            minima deleniti. Minima aliquid magnam libero reiciendis et, nesciunt repellendus eum vel rerum alias ea
+            enim fugiat eius. Quae dolores, amet nam ab officiis corrupti sequi eligendi quo culpa illum.
+        </p>
+        </p>
+    </section>
+    <div class="mt-[30px] flex p-[20px] justify-evenly items-center bg-[#B0DFEA]">
+        <a class="hover:translate-y-[-10px] duration-700" href=""><i class=" icon-home"></i></a>
+        <a class="hover:translate-y-[-10px] duration-700" href="">
+            <span class="material-symbols-outlined">
+                landscape_2
+            </span>
+        </a>
+        <a class="hover:translate-y-[-10px] duration-700" href="">
+            <span class="material-symbols-outlined">
+                hiking
+            </span>
+        </a>
+        <a class="hover:translate-y-[-10px] duration-700" href="">
+            <span class="material-symbols-outlined">
+                groups
+            </span>
+        </a>
+        <a class="hover:translate-y-[-10px] duration-700" href="">
+            <span class="material-symbols-outlined">
+                manufacturing
+            </span>
+        </a>
+        
+    </div>
+    <footer class="w-full h-[200px] bg-[#b0dfea] ">
+        <!-- my signature -->
+        <figure class=" group w-[130px] h-[130px] flex flex-wrap fixed z-10 left-[10px] bottom-[40px] rounded-full cursor-pointer ">
+            <img class="bg-[#637e84] relative z-50 w-full h-full object-cover rounded-full signature brightness-150" src="img/me.png" alt="">
+            <div class="group-hover:right-[-41px] group-hover:opacity-100 group-hover:visible w-[40px] h-[90px] absolute top-0 right-[70px] opacity-0 invisible duration-[.4s] ease-linear hover:right-[-45px] hover:opacity-100 hover:visible">
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-1"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class="icon-instagram-2"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="mailto:computer.sabaa@gmail.com" target="_blank"><i class="icon-mail"></i></a>
+                                        
+            </div>
+        </figure>
+        <!-- my signature -->
+            <section class="w-full h-1/2 border-t-purple-200 border-t-[1px] *:text-white flex justify-center md:justify-around  py-[50px]">
+                <p class="w-1/3">Developed By <a class="hover:text-[#5295a3]" href="https://github.com/SabaAsgarian" target="_blank">Saba Asgarian</a> with Tailwind & JavaScript</p>
+                <ul class=" ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-start  lg:justify-end items-center *:mx-[8px]">
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="icon-linkedin-1"></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class="icon-instagram-2"></i></a></li>
+                    <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
+                </ul>
+            </section>
+            <span class="relative">
+                <a class="hover:bg-[#5295a3] fixed right-[2%] bottom-[5%] bg-[#333333cc] flex h-[50px] w-[40px] justify-center items-center text-white text-[18px] " href="#"><i class=" icon-up-open-2"></i></a>
+            </span>
+    </footer>
+</body>
+<script>
+
+    const mountainLeft = document.querySelector('#mountain_left');
+    const mountainRight = document.querySelector('#mountain_right');
+    const cloud1 = document.querySelector('#clouds_1');
+    const cloud2 = document.querySelector('#clouds_2');
+    const text = document.querySelector('#text');
+    const man = document.querySelector('#man');
+
+    window.addEventListener('scroll', () => {
+        let value = scrollY;
+        mountainLeft.style.left = `-${value / 0.7}px`;
+        cloud2.style.left = `-${value * 2}px`;
+        mountainRight.style.left = `${value / 0.7}px`;
+        cloud1.style.left = `${value * 2}px`;
+        text.style.bottom = `${-value}px`;
+        man.style.height = `${window.innerHeight - value}px`;
+
+    })
+</script>
+
+</html>
