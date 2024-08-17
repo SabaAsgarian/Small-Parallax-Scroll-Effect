@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body class="h-[100vh] w-[100vw] font-mr overflow-x-hidden">
+<body class="h-[100vh] w-[100vw] font-mr overflow-x-hidden *:text-center">
     <section id="top"
         class="relative w-full h-full overflow-hidden flex justify-center items-center before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[200px] before:w-[100%] ">
         <img src="img/bg.jpg" alt="" id="bg">
@@ -63,10 +63,10 @@
         </a>
         
     </div>
-    <footer class="w-full h-[200px] bg-[#b0dfea] ">
+    <footer class="w-full h-[200px] bg-[#b0dfea] relative">
         <!-- my signature -->
-        <figure class=" group w-[130px] h-[130px] flex flex-wrap fixed z-10 left-[10px] bottom-[40px] rounded-full cursor-pointer ">
-            <img class="bg-[#637e84] relative z-50 w-full h-full object-cover rounded-full signature brightness-150" src="img/me.png" alt="">
+        <figure class=" group w-[130px] h-[130px] flex flex-wrap absolute z-10 left-[10px] bottom-[40px] rounded-full cursor-pointer ">
+            <img class="bg-[#637e84] relative z-50 w-full h-full object-cover rounded-full signature " src="img/me.png" alt="">
             <div class="group-hover:right-[-41px] group-hover:opacity-100 group-hover:visible w-[40px] h-[90px] absolute top-0 right-[70px] opacity-0 invisible duration-[.4s] ease-linear hover:right-[-45px] hover:opacity-100 hover:visible">
                 <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a>
                 <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#637e84] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#5295a3] hover:text-black" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-1"></i></a>
@@ -76,18 +76,16 @@
             </div>
         </figure>
         <!-- my signature -->
-            <section class="w-full h-1/2 border-t-purple-200 border-t-[1px] *:text-white flex justify-center md:justify-around  py-[50px]">
-                <p class="w-1/3">Developed By <a class="hover:text-[#5295a3]" href="https://github.com/SabaAsgarian" target="_blank">Saba Asgarian</a> with Tailwind & JavaScript</p>
-                <ul class=" ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-start  lg:justify-end items-center *:mx-[8px]">
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a></li>
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="icon-linkedin-1"></i></a></li>
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class="icon-instagram-2"></i></a></li>
-                    <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
-                </ul>
-            </section>
-            <span class="relative">
-                <a class="hover:bg-[#5295a3] fixed right-[2%] bottom-[5%] bg-[#333333cc] flex h-[50px] w-[40px] justify-center items-center text-white text-[18px] " href="#"><i class=" icon-up-open-2"></i></a>
-            </span>
+        <section class="w-full h-full  flex-wrap  *:text-white flex justify-center items-end *:text-center md:justify-around  py-[50px]">
+            <p class="w-full h-1/2 pt-[20px]">Developed By <a class="hover:text-[#5295a3]" href="https://github.com/SabaAsgarian" target="_blank">Saba Asgarian</a> with Tailwind & JavaScript</p>
+            <ul class="w-full h-1/2 ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-center   items-center *:mx-[8px]">
+                <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1 "></i></a></li>
+                <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3"></i></a></li>
+                <li><a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a></li>
+                <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#5295a3] justify-center items-center bg-[#637e84]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
+            </ul>
+        </section>
+            
     </footer>
 </body>
 <script>
